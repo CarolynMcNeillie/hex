@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  padding: 15px 40px;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "Catamaran",
+    sans-serif;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.75);
+  position: relative;
+  margin: 5px;
+
+  &>i {
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+
+  &:hover,
+  &:focus {
+    background: rgba(255, 255, 255, 0.85);
+    outline: none;
+  }
+}

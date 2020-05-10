@@ -1,13 +1,13 @@
-import React from 'react'
-import { BrowserRouter as Router } from 'react-router-dom'
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import styles from './App.module.scss'
-import { Routes } from './Routes'
+import styles from "./App.module.scss";
+import { HelloWorld } from "./HelloWorld";
 
 export const App = () => (
   <Router>
     <main className={styles.app}>
-      <Routes />
+      <HelloWorld />
     </main>
   </Router>
-)
+);
